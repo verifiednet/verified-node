@@ -1,0 +1,21 @@
+{
+  "name": "verified-net",
+  "version": "1.0.0",
+  "description": "Official Node.js client for the Verified.net email, phone, carrier and IP verification API",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test/" },
+  "keywords": ["email verification", "email validation", "phone validation", "carrier lookup", "ip intelligence", "fraud"],
+  "homepage": "https://verified.net",
+  "repository": { "type": "git", "url": "git+https://github.com/verifiednet/verified-node.git" },
+  "license": "MIT"
+}
